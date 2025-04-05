@@ -11,6 +11,7 @@ model = DecisionTreeClassifier()
 model.fit(X, y)
 
 # 3. Streamlit app
+st.title("Arunaachalam")
 st.title("Even or Odd Number Classifier")
 
 number = st.number_input("Enter a number", min_value=0, step=1)
